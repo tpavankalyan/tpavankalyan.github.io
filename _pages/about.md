@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Fourth year Undergraduate @ <a href='https://www.iitb.ac.in/'>IIT Bombay</a> pursuing integrated BTech (Electrical Engineering) and MTech (Data Science and Artificial Intelligence)
 
 profile:
   align: right
