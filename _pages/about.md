@@ -6,7 +6,7 @@ subtitle: Fourth year Undergraduate @ <a href='https://www.iitb.ac.in/'>IIT Bomb
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Room Number 2079</p>
