@@ -1,9 +1,60 @@
----
-layout: page
-permalink: /404.html
-title: "Page not found"
-description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
----
-
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="{{ site.baseurl }}/">here</a>.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · Lost in the Post — Pavan Kalyan Tankala</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      background: #F6F1E7;
+      color: #17181B;
+      font-family: "Newsreader", Georgia, serif;
+      padding: 24px;
+      text-align: center;
+    }
+    .card {
+      max-width: 460px;
+      background: #FBF8F2;
+      border: 1px solid #CBBFA9;
+      border-radius: 12px;
+      padding: 32px 28px;
+    }
+    .code {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #B84A27;
+    }
+    h1 {
+      font-weight: 500;
+      font-size: 26px;
+      margin: 10px 0 12px;
+    }
+    p {
+      margin: 0 0 20px;
+      color: #575148;
+      line-height: 1.55;
+    }
+    a {
+      color: #1D5570;
+      text-underline-offset: 3px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="code">404 · Wrong Hostel Room</div>
+    <h1>This page moved out of Hostel 18.</h1>
+    <p>The old Jekyll subpages have been retired into a single personal notebook.</p>
+    <a href="/">← Back to Pavan’s homepage</a>
+  </main>
+</body>
+</html>
