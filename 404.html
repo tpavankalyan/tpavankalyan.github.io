@@ -3,58 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>404 · Lost in the Post — Pavan Kalyan Tankala</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <title>404 — Pavan Kalyan (PK)</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/psi-face.svg">
   <style>
+    @font-face {
+      font-family: "Bricolage Grotesque";
+      src: url("/assets/fonts/BricolageGrotesque-Variable.woff2") format("woff2");
+      font-weight: 200 800;
+      font-stretch: 75% 100%;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Instrument Sans";
+      src: url("/assets/fonts/InstrumentSans-Variable.woff2") format("woff2");
+      font-weight: 400 700;
+      font-display: swap;
+    }
     body {
       margin: 0;
       min-height: 100dvh;
       display: grid;
       place-items: center;
-      background: #F6F1E7;
-      color: #17181B;
-      font-family: "Newsreader", Georgia, serif;
+      background: #2646E6;
+      color: #15122B;
+      font-family: "Instrument Sans", system-ui, sans-serif;
       padding: 24px;
-      text-align: center;
     }
     .card {
-      max-width: 460px;
-      background: #FBF8F2;
-      border: 1px solid #CBBFA9;
+      max-width: 420px;
+      background: #FFF3D6;
+      border: 3px solid #15122B;
       border-radius: 12px;
-      padding: 32px 28px;
-    }
-    .code {
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 12px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #B84A27;
+      box-shadow: 6px 7px 0 #15122B;
+      padding: 28px 26px;
+      rotate: -1deg;
     }
     h1 {
-      font-weight: 500;
-      font-size: 26px;
-      margin: 10px 0 12px;
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-weight: 800;
+      font-stretch: 75%;
+      text-transform: uppercase;
+      font-size: 38px;
+      margin: 0 0 8px;
+      line-height: 0.95;
     }
     p {
-      margin: 0 0 20px;
-      color: #575148;
-      line-height: 1.55;
+      margin: 0 0 18px;
+      font-weight: 500;
+      line-height: 1.5;
     }
     a {
-      color: #1D5570;
-      text-underline-offset: 3px;
+      display: inline-block;
+      background: #FFC93C;
+      color: #15122B;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 7px 14px;
+      border: 2.5px solid #15122B;
+      border-radius: 8px;
+      box-shadow: 3px 3.5px 0 #15122B;
     }
   </style>
 </head>
 <body>
   <main class="card">
-    <div class="code">404 · Wrong Hostel Room</div>
-    <h1>This page moved out of Hostel 18.</h1>
-    <p>The old Jekyll subpages have been retired into a single personal notebook.</p>
-    <a href="/">← Back to Pavan’s homepage</a>
+    <h1>404 · Wrong Page</h1>
+    <p>Those old subpages moved onto one sheet.</p>
+    <a href="/">← Back to homepage</a>
   </main>
 </body>
 </html>
